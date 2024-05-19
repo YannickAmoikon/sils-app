@@ -1,11 +1,9 @@
-import Image from "next/image";
-import Header from "@/app/components/Header";
+import Home from "@/app/components/Home";
 
-export default function Home() {
+export default function HomePage() {
     return (
         <>
-            <div>
-            </div>
+            <Home/>
         </>
-    );
+    )
 }
